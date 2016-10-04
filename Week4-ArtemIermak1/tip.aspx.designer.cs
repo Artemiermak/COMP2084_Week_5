@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Week4_ArtemIermak1
-{
-
-
-    public partial class tip
-    {
-
+namespace Week4_ArtemIermak1 {
+    
+    
+    public partial class tip {
+        
         /// <summary>
         /// txtAmount control.
         /// </summary>
@@ -22,7 +20,25 @@ namespace Week4_ArtemIermak1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtAmount;
-
+        
+        /// <summary>
+        /// anyId1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator anyId1;
+        
+        /// <summary>
+        /// anyId2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator anyId2;
+        
         /// <summary>
         /// ddlPercent control.
         /// </summary>
@@ -31,7 +47,16 @@ namespace Week4_ArtemIermak1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPercent;
-
+        
+        /// <summary>
+        /// RangeValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        
         /// <summary>
         /// btnCalculate control.
         /// </summary>
@@ -40,7 +65,7 @@ namespace Week4_ArtemIermak1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCalculate;
-
+        
         /// <summary>
         /// ddlTip control.
         /// </summary>
@@ -49,7 +74,7 @@ namespace Week4_ArtemIermak1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label ddlTip;
-
+        
         /// <summary>
         /// lblTotal control.
         /// </summary>

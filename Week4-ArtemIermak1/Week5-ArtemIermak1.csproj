@@ -94,11 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="error.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Site.Master" />
+    <Content Include="404.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -116,6 +118,13 @@
     <Content Include="default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="error.aspx.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
     <Compile Include="hello.aspx.cs">
       <DependentUpon>hello.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,6 +160,13 @@
     </Compile>
     <Compile Include="tip.aspx.designer.cs">
       <DependentUpon>tip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

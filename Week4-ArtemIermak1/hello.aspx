@@ -9,5 +9,14 @@
 
     <asp:textbox id="txtName" runat="server" placeholder="Enter your name" />
 
+    <asp:RequiredFieldValidator 
+        ID="RequiredFieldValidator1" 
+        runat="server" 
+        ErrorMessage="Required" 
+        ControlToValidate="txtName" 
+        CssClass="alert-danger">
+
+    </asp:RequiredFieldValidator>
+
     <asp:button id="btnSubmit" runat="server" text="Submit" cssclass="btn btn-success" OnClick="btnSubmit_Click" />
 </asp:Content>
